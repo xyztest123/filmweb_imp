@@ -1,0 +1,46 @@
+.container {
+
+    .movie {
+        margin: 50px 0;
+
+        .movie-top {
+            display: flex;
+            flex-direction: row;
+
+            .photo {
+                img {
+                    max-width: 400px;
+                    width: 100%;
+                    display: block;
+                }
+            }
+
+            .movie-info {
+                .title {}
+
+                .description {}
+
+                .duration {}
+
+                .categories {
+                    .category {
+                        &:after {
+                            content: ", ";
+
+                        }
+
+                        &:last-of-type {
+                            &:after {
+                                content: ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .gallery {
+        .photo {}
+    }
+}

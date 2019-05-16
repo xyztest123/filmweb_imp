@@ -1,0 +1,29 @@
+.navbar-top {
+    background-color: #000000;
+    padding: 5px 0;
+    text-align: right;
+
+    a {
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: none;
+        transition: 0.3s all;
+
+        &:hover {
+            color: #b0b0b0;
+        }
+
+        i {
+            margin: 0 5px 0 0;
+        }
+    }
+
+    .user-login {
+        color: #fff;
+
+        span {
+            margin: 0 10px;
+        }
+    }
+}
