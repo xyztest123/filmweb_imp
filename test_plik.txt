@@ -7,3 +7,4 @@ plik edytowany w gałęzi repozytorium
 plik edytowany w galezi glownej!
 
 Zmiana w pierwszej gałęzi po uprzednim zmergowaniu z masterem
+Teraz po commit przed push
